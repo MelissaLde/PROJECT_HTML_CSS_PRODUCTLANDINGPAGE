@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="favicon.ico" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="asset/css/style.css">
+
+  <title>Lancôme Product Landing Page</title>
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <!-- HEADER -->
+  <div id="header" class="grid">
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#feature">Nouveautés</a></li>
+        <li><a class="nav-link" href="#description">Cadeaux</a></li>
+        <li><a class="nav-link" href="#paragraph">Marques</a></li>
+      </ul>
+    </nav>
+    <section class="col-6">
+      <h3 id="feature">Accueil / Parfum / Parfum femme / Eau de parfum</h3>
+      <img src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwa8601484/images/hi-res/SKU/SKU_3/285900_swatch.jpg" width="560" height="600" id="header-img" />
+    </section>
+    <section class="col-6">
+      <h3 id="lancome">Lancôme La Vie Est Belle</h3>
+      <h3 id="water">EAU DE PARFUM</h3>
+      <p id="perfume">Embellissez votre vie avec La vie est belle, le parfum féminin iconique de Lancôme. Incarnée par Julia Roberts</p>
+      <aside id="product-option">
+        <button type="submit">Vaporisateur 200 ml</button>
+        <button type="submit">Vaporisateur 30 ml</button>
+        <button type="submit">Vaporisateur 50 ml</button>
+        <button type="submit">Vaporisateur 75 ml</button>
+        <button type="submit">Vaporisateur 10 ml</button>
+        <button type="submit">Vaporisateur de sac</button>
+        <button type="submit">Recharges 3 x 18 ml</button>
+      </aside>
+      <p id="price"> 70,00 € </p>
+      <button id="add" type"submit">Ajouter au panier</button>
+    </section>
+    <section id="product-video" class="col-6">
+      <iframe id="video" src="https://www.youtube.com/embed/uRaN469UAmE" width="600" height="300" frameborder="0" allow="accelerometer; autoplay;encrypted-media;gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    </section>
+    <section id="description-content" class="col-6">
+      <h3 id="description">Descriptions</h3>
+      <p id="paragraph">
+        Embellissez votre vie avec La vie est belle, le parfum féminin iconique de Lancôme.
+        Incarnée par Julia Roberts, La vie est belle est une ode universelle à la beauté de la vie. Une signature unique
+        créée par trois des plus grands parfumeurs français.
+        Une déclaration olfactive unique, créée par trois des plus grands parfumeurs français, ce nouveau parfum délicat
+        et féminin mêle des notes sucrées d'iris de Florence, de jasmin d'Arabie, de fleur d'oranger et d'essence de
+        patchouli. Découvrez une nouvelle philosophie de vie et suivez votre propre chemin vers le bonheur avec La vie
+        est belle.
+        Vaporisez La vie est belle directement sur la peau en privilégiant les points chauds de votre corps : à
+        l'intérieur des poignets, sous le lobe de l’oreille, derrière les genoux.
+      </p>
+    </section>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <section id="product-footer">
+      <form method="post" action="https://www.freecodecamp.com/email-submit" id="form">
+        <p id="newsletter">Recevoir la Newsletter</p>
+        <form method="post" id="form">
+          <input type="email" name="email" id="email" placeholder="Entrez votre email" required>
+          <input id="submit" type="submit" name="submit">
+        </form>
+    </section>
+  </footer>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
